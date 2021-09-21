@@ -1,0 +1,313 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    color: #222;
+    background: rgb(252, 252, 252);
+}
+.navbar{
+    padding: .8rem;
+    align-items: center;
+    background-color: #1d0606;
+}
+.navba-nav li{
+     padding-right: 20px;
+     
+}
+.nav-link{
+    font-size:1.1em !important;
+}
+.navbar-brand{
+    align-items: center;
+}
+.logo{
+    border-radius: 30px;
+    background-position: center;
+    
+}
+.bg{
+    background: rgba(0, 0, 0, 0.644);
+}
+.collapse{
+    justify-content: flex-end;
+}
+.img-bg{
+
+     margin-top: 75px;
+    background-image: url("./img/attorney.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.links{
+    padding: 20px;
+    height: min-content;
+    display: block;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #291729;
+    box-shadow: 0px 0px 10px 1px #02050f;
+    border-radius: 8px;
+    
+}
+.link{
+    text-decoration: none;
+    margin-top:15px;
+    padding:20px;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+  
+}
+.welcome{
+    height: 582px;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+.greating-texts{
+    margin-top: 150px;
+    justify-self: center;
+}
+.learnMore{
+  margin-top: 1rem;
+}
+.about{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgb(206, 206, 206);
+    padding: 5px;
+    background: white;
+}
+.translate{
+  text-align: right;
+  padding:5px;
+}
+.img-size{
+    max-width: 100%;
+    height: auto;
+}
+.slider{
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgb(161, 161, 161);
+    padding: 5px;
+}
+.Events{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0.5px rgb(197, 197, 197);
+    padding: 5px;
+    padding-left: 18px;
+    background: #ffffff;
+}
+.title{
+    padding: 25px;
+}
+.updated{
+    padding: 10px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.news-text{
+    
+    text-transform: capitalize;
+    text-align: left;
+    margin:auto;
+    padding:20px;
+    max-height: 100%;
+   
+}
+.img-size{
+   image-rendering: auto;
+}
+.card{
+    height: 30rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 1px #f1f1f1;
+    background-color: #f1f1f1;
+}
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+    color:#272522;
+    font-weight: 600;
+
+}
+.card:hover{
+ 
+    box-shadow: 0px 0px 2px 0.5px rgb(182, 182, 182);
+}
+.footer{
+    margin-top: 4rem;
+    color:white;
+    background-color: #1d0606;
+}
+
+.bi{
+    margin:0.5%;
+  }
+  .bi-telegram{
+   font-size: 22px;
+    padding:5px;
+      background-color: aliceblue;
+      border-radius: 20%;
+  }
+  .bi-telegram:hover{
+  background: rgb(211, 211, 211);
+  }
+  .bi-facebook{
+    font-size: 22px;
+    padding:5px;
+      background-color: aliceblue;
+      border-radius: 20%;
+  }
+  .bi-facebook:hover{
+      background: rgb(211, 211, 211);
+      }
+ 
+    
+  .oromic{
+      content:"bvjdf vnjdfbcv";
+  }    
+  .amharic{
+      content: "fhvbschvncjxvb";
+  }
+  .img-modal{
+      transition:all 0.3s ease-in-out ;
+  }
+  .img-modal:hover{
+transform: scale(1.3);
+z-index: 1000;
+overflow: hidden;
+  }
+  p{
+      font-size: 18px;
+      font-family:  Times, serif;
+  }
+  li{
+      font-size: 18px;
+      list-style-type:none;
+      margin:1px;
+      font-family:  Times, serif;
+      text-transform: capitalize;
+  }
+  .detail-content{
+    margin-right: 40px;
+    
+      padding-left: 20px;
+      text-align: justify;
+  }
+  .en-content{
+    margin-left: 25px;
+    margin-right: 15px;
+      padding:10px;
+  }
+  .lawers{
+      background: rgb(41, 38, 38);
+  }
+  .glass{
+      border-radius: 8px;
+      background: #c9c9ca49;
+  }
+  .list-icon{
+      border-radius: 15px;
+      background-color: #ccc;
+  }
+ 
+.contact{
+    background-color: rgba(204, 204, 204, 0.336);
+}
+
+.dropmsg{
+    color:rgb(44, 43, 43);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.send{
+    margin: 9px;margin-top:28px;
+    font-family: "Roboto";  
+    width: 100px;
+    float: right;
+}
+
+#noWord{
+    background-color: #222;
+    color:#ccc;
+}
+.more{
+    float:right;
+     
+}
+.headofoffice{
+  
+    margin:2rem;
+    justify-content: center;
+ 
+}
+.head{
+    
+    background-color: #1d0606;
+    border-radius: 8px;
+
+}
+.headphoto{
+    padding:2rem;
+    border-radius: 8px;
+    image-orientation:from-image;
+}
+.texts{
+    padding:2rem;
+        
+ 
+}
+.moto{
+    color: #ad7a1b;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lawyer-margin{
+    margin:1rem;
+}
+.header{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #291729;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.recent-case{
+float: right;
+font-size: 18px;
+font-weight: 400;
+}
+.case-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.case-description{
+    text-transform: capitalize;
+    padding: 1rem;
+   
+    margin-left:1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.case-time{
+    justify-content: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+.each-case{
+    color:rgb(0, 0, 0);
+    padding:1rem;
+    margin:1rem;
+    background-color: #979797;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 1px #ccc;
+}
+#nocases{
+    color:black;
+}
